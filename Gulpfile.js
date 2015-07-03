@@ -7,7 +7,7 @@ var serve = require('browser-sync');
 
 var paths = {
   app: path.join(root, 'app', '**/*.js*'),
-  entry: path.join(root, 'app/index.js'),
+  entry: path.join(root, 'app/index.jsx'),
   output: path.join(root, 'dist')
 };
 

@@ -1,5 +1,5 @@
 var path = require('path');
-var ExtractTextPlugin = require('extract-text-webpack-plugin')
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var config = {
 
@@ -26,7 +26,7 @@ var config = {
 
       /* CSS + SCSS */
       {
-        test: /\.*css$/,
+        test: /\.scss$/,
         loader: ExtractTextPlugin.extract(
           'css?sourceMap!' +
           'sass?sourceMap'
