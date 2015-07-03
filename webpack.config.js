@@ -20,7 +20,7 @@ var config = {
         exclude: /(node_modules)/,
         loaders: [
           'jsx-loader?insertPragma=React.DOM&harmony&harmony', 
-          'babel?optional[]=runtime&loose=all&cacheDirectory'
+          'babel?stage=0&optional[]=runtime&loose=all&cacheDirectory'
         ]
       },
 
