@@ -1,18 +1,18 @@
 'use strict';
-
+import './styles/styles.scss';
 import React from 'react';
 
 class App extends React.Component {
   render(){
     return (
-       <div>
+      <div>
         <p>Hello World</p>
-      </div>,
+      </div>
     );
   }
 }
 
 React.render(
-  <App />
-  document.getElementById('app')
-);
+  <App />,
+  document.body
+)

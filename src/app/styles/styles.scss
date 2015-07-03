@@ -1,0 +1,33 @@
+@import 'flexbox';
+
+$red: #ff3333;
+$blue: #4d4dff;
+$green: #66e166;
+$pink: #ff69b4;
+
+.container {
+  @include flexbox;
+  width: 60%;
+  height: 500px;
+  @include flex-direction(column);
+}
+
+.red {
+  background-color: $red;
+  @include flex;
+}
+
+.pink {
+  background-color: $pink;
+  @include flex;
+}
+
+.green {
+  background-color: $green;
+  @include flex;
+}
+
+.blue {
+  background-color: $blue;
+  @include flex;
+}
