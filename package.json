@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "a quick and minimal react starter kit",
   "main": "src/app.js",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/mrblueblue/react-quickstart"
+  },
   "scripts": {
     "start": "npm install && gulp",
     "test": "gulp test"
