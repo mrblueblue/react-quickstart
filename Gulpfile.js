@@ -31,7 +31,7 @@ gulp.task('webpack:build', function(callback){
 gulp.task('serve', function(){
   serve({
     port: process.env.PORT || 3000,
-    open: true,
+    open: false,
     server: {
       baseDir: root
     }
