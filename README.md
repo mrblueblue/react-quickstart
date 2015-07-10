@@ -13,3 +13,17 @@ Run `npm start` to get started.
 Use `gulp component --name <name>` to quickly create a React Component.
 
 Add the `--full` flag to create a React Component will life-cycle methods.
+
+## Application Structure
+
+```bash
+$ tree src
+
+├── src/                  # Main source folder
+│   ├── app/              # React application files
+│   │   ├── components/   # React components
+│   │   ├── styles/       # Sass styles
+│   │   └── index.jsx     # Main React app entry point
+│   └── index.html        # HTML entry point     
+└──...                    # Configuration files
+```
