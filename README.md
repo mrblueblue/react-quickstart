@@ -2,9 +2,9 @@
 
 A quick and minimal React starter kit. Includes ES6, Sass, Gulp, and Webpack.
 
-React is great! But setting up a ES6/JSX dev environment with Webpack and GUlp is not so great :(
+React is great! But setting up a ES6/JSX dev environment with Webpack and Gulp is not so great :confused:. 
 
-Use this repo to quickly jump into writing beautiful, modular React code!
+Use this repo to quickly start writing beautiful, modular React code!
 
 ## Quick Start
 
