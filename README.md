@@ -25,5 +25,5 @@ $ tree src
 │   │   ├── styles/       # Sass styles
 │   │   └── index.jsx     # Main React app entry point
 │   └── index.html        # HTML entry point     
-
+└──...                    # Configuration files
 ```
