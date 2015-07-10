@@ -10,9 +10,15 @@ Run `npm start` to get started.
 
 ## Component Generation
 
-Use `gulp component --name <name>` to quickly create a React Component.
+To quickly create a React component:
 
-Add the `--full` flag to create a React Component will life-cycle methods.
+    gulp component --name <name>
+
+Add the `--full` flag to create a React component will life-cycle methods.
+
+Components generated this way will automatically be created in `/src/app/components/`. 
+
+If you want to tweak the component template, see the files in `/generator`. 
 
 ## Application Structure
 
