@@ -6,7 +6,9 @@ React is great! But setting up a ES6/JSX dev environment with Webpack and GUlp i
 
 Use this repo to quickly jump into writing beautiful, modular React code!
 
-Run `npm start` to get started.
+## Quick Start
+
+    npm start
 
 ## Component Generation
 
