@@ -24,6 +24,7 @@ $ tree src
 │   │   ├── components/   # React components
 │   │   ├── styles/       # Sass styles
 │   │   └── index.jsx     # Main React app entry point
+│   ├── dist/             # Static file bundles
 │   └── index.html        # HTML entry point     
 └──...                    # Configuration files
 ```
