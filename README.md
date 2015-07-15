@@ -36,3 +36,31 @@ $ tree src
 │   └── index.html        # HTML entry point     
 └──...                    # Configuration files
 ```
+
+## Webpack
+
+The `webpack.config.js` is already set up for you, but in case you were wondering about specific configuration details, here is a line by line explanation:
+
+#### Devtool
+```javascript
+devtool: 'eval',
+```
+This config property allows you to choose a developer tool to enhance debugging. In this case, `eval` is selected, which is the most performant, but only maps to compiled source code per module. For more detvool options refer to thhe Webpack [docs](http://webpack.github.io/docs/configuration.html#devtool)
+
+#### Debug (TODO)
+
+#### Watch (TODO)
+
+#### Output (TODO)
+
+#### Loaders (TODO)
+
+#### Resolve (TODO)
+
+#### Plugins (TODO)
+
+
+
+
+
+
