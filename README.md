@@ -1,10 +1,10 @@
 # react-quickstart
 
-A quick and minimal React starter kit. Includes ES6, Sass, Gulp, and Webpack.
+A quick and minimal React starter kit. Includes ES6, Sass, Gulp, Webpack, and Browsersync.
 
 React is great! But setting up a ES6/JSX dev environment with Webpack and Gulp is not so great :confused:. 
 
-Use this repo to quickly start writing beautiful, modular React code!
+Use this repo to quickly start writing beautiful, modular React code in ES6!
 
 ## Quick Start
 
