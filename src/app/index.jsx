@@ -1,4 +1,3 @@
-'use strict';
 import './styles/styles.scss';
 import React from 'react';
 
@@ -15,4 +14,4 @@ class App extends React.Component {
 React.render(
   <App />,
   document.body
-)
+);
