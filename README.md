@@ -97,21 +97,64 @@ The `webpack.config.js` is already set up for you, but in case you were wonderin
 ```javascript
 devtool: 'eval',
 ```
-This config property allows you to choose a developer tool to enhance debugging. In this case, `eval` is selected, which is the most performant, but only maps to compiled source code per module. 
+This config property allows you to choose a developer tool to enhance debugging. In this case, `eval` is selected, which is the most performant, but it only maps to compiled source code per module. 
 
 #### Debug (TODO)
+```javascript
+debug: 'true',
+```
 
 #### Watch (TODO)
+```javascript
+watch: 'true',
+```
 
 #### Output (TODO)
-
+```javascript
+output: { filename: 'bundle.js' },
+```
 #### Loaders (TODO)
+
+##### JS and JSX
+```javascript
+{
+  test: /\.jsx?$/,
+  exclude: /(node_modules)/,
+  loaders: [
+    'jsx-loader?insertPragma=React.DOM&harmony&harmony', 
+    'babel?stage=0&optional[]=runtime&loose=all&cacheDirectory'
+  ]
+},
+```
+##### SCSS
+```javascript
+{
+  test: /\.scss$/,
+  loader: ExtractTextPlugin.extract(
+    'css?sourceMap!' +
+    'sass?sourceMap'
+  )
+},
+```
+##### Static Assets
+```javascript
+{
+  test: /\.(png|jpg|eot|woff|woff2|ttf|svg)$/, 
+  loader: 'url-loader?limit=8192'
+}
+```
 
 #### Resolve (TODO)
 
+```javascript
+resolve: { extensions: ['', '.js', '.jsx'] },
+```
+
 #### Plugins (TODO)
 
-
+```javascript
+plugins: [ new ExtractTextPlugin('styles.css') ]
+```
 
 
 
