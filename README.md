@@ -99,20 +99,24 @@ devtool: 'eval',
 ```
 This config property allows you to choose a developer tool to enhance debugging. In this case, `eval` is selected, which is the most performant, but it only maps to compiled source code per module. 
 
-#### Debug (TODO)
+#### Debug
 ```javascript
 debug: 'true',
 ```
+Here, loaders are set to debug mode. (Which I guess makes errors explicit and verbose).
 
-#### Watch (TODO)
+#### Watch
 ```javascript
 watch: 'true',
 ```
+By setting `watch` to true, webpack will rebuild the bundle on any changes.
 
-#### Output (TODO)
+#### Output
 ```javascript
 output: { filename: 'bundle.js' },
 ```
+`bundle.js` is the name our output bundle. We could also define a `path` property here, but this is actually defined in the `gulpfile.js`.
+
 #### Loaders (TODO)
 
 ##### JS and JSX
@@ -144,18 +148,18 @@ output: { filename: 'bundle.js' },
 }
 ```
 
-#### Resolve (TODO)
-
+#### Resolve
 ```javascript
 resolve: { extensions: ['', '.js', '.jsx'] },
 ```
+Lists the extensions that are used to resolve modules. In this case, a file like `App.jsx` can be imported as `import App from 'App'`.
 
-#### Plugins (TODO)
+#### Plugins
 
 ```javascript
 plugins: [ new ExtractTextPlugin('styles.css') ]
 ```
-
+Move every `require("style.css")` in the entry file into a separate css output file. As a result, styles are no longer inlined into the javascript, but instead are separatde in a css bundle file  called styles.css. 
 
 
 
