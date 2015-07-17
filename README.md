@@ -130,6 +130,16 @@ output: { filename: 'bundle.js' },
   ]
 },
 ```
+The JSX Loader has the harmony flag and the React.DOM pragma is automatically inserted in the file for processing.
+
+The Babel Loader has these flags set:
+
+1. `stage 0`
+2. `runtime`
+3. `loose=all`
+4. `cacheDirector`
+
+
 ##### SCSS
 ```javascript
 {
@@ -140,6 +150,8 @@ output: { filename: 'bundle.js' },
   )
 },
 ```
+The `extract-text-webpack-plugin` allows us bundle css and scss files by using the `require` syntax in the entry file.
+
 ##### Static Assets
 ```javascript
 {
@@ -147,6 +159,7 @@ output: { filename: 'bundle.js' },
   loader: 'url-loader?limit=8192'
 }
 ```
+Image files are loaded using the URL Loader. This allows use to require an image inside a tag like so `require('./GitHub-Mark-Light-32px.png')`
 
 #### Resolve
 ```javascript
