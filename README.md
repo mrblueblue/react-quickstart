@@ -1,8 +1,8 @@
 # React Quickstart
 
-> A quick and minimal React starter kit that includes ES6+, Babel, Sass, Gulp, Webpack, and BrowserSync. 
+> A quick and minimal React starter kit that includes [ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/), [Babel](http://babeljs.io/), [Sass](http://sass-lang.com/), [Gulp](http://gulpjs.com/), [Webpack](http://webpack.github.io/), and [BrowserSync](http://www.browsersync.io/). 
 
-## Quick Start
+## Getting Started
 
     npm start
 
@@ -21,15 +21,11 @@
 
 ## Component Generation
 
-To quickly create a React component:
-
     gulp component --name <name>
-
-Add the `--full` flag to create a React component with life-cycle methods.
 
 Components generated this way will automatically be created in `/src/app/components/`. 
 
-If you want to tweak the component template, see the files in `/generator`. 
+Add the `--full` flag to create a React component with life-cycle methods.
 
 ## Configs
 
