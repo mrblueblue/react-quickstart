@@ -88,3 +88,8 @@ export class Example extends.React.Component {
   }
 };
 ```
+## Configuration Info
+
+[Here](CONFIGURATION.md) is a breakdown of the Webpack and Gulp configurations.
+
+## ES6 + React (Todo)
