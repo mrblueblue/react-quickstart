@@ -1,6 +1,6 @@
 # React Quickstart
 
-> A quick, minimal React starter that includes [ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/), [Babel](http://babeljs.io/), [Sass](http://sass-lang.com/), [Gulp](http://gulpjs.com/), [Webpack](http://webpack.github.io/), and [BrowserSync](http://www.browsersync.io/). 
+> A quick and minimal React starter kit that includes [ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/), [Babel](http://babeljs.io/), [Sass](http://sass-lang.com/), [Gulp](http://gulpjs.com/), [Webpack](http://webpack.github.io/), and [BrowserSync](http://www.browsersync.io/). 
 
 ## Getting Started
 
