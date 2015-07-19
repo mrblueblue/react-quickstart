@@ -1,8 +1,9 @@
-# React Quickstart [![Build Status](https://travis-ci.org/mrblueblue/react-quickstart.svg?branch=master)](https://travis-ci.org/mrblueblue/react-quickstart)
+# React Quickstart
+[![Build Status](https://travis-ci.org/mrblueblue/react-quickstart.svg?branch=master)](https://travis-ci.org/mrblueblue/react-quickstart)
 
-A minimalist React starter. 
+> A minimalist React starter. 
 
-Includes [ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/), [Babel](http://babeljs.io/), [Sass](http://sass-lang.com/), [Gulp](http://gulpjs.com/), [Webpack](http://webpack.github.io/), [Mocha](http://mochajs.org/)/[Chai](http://chaijs.com/) and [BrowserSync](http://www.browsersync.io/). 
+> Includes [ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/), [Babel](http://babeljs.io/), [Sass](http://sass-lang.com/), [Gulp](http://gulpjs.com/), [Webpack](http://webpack.github.io/), [Mocha](http://mochajs.org/)/[Chai](http://chaijs.com/) and [BrowserSync](http://www.browsersync.io/). 
 
 ## Getting Started
 
