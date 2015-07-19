@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "npm install && gulp",
-    "test": "gulp test"
+    "test": "mocha --reporter nyan --compilers js:babel/register --recursive"
   },
   "keywords": [
     "react",
@@ -29,6 +29,7 @@
     "babel-loader": "^5.2.2",
     "babel-runtime": "^5.6.15",
     "browser-sync": "^2.7.13",
+    "chai": "^3.1.0",
     "css-loader": "^0.15.1",
     "eslint": "^0.24.0",
     "eslint-plugin-react": "^2.6.4",
@@ -37,10 +38,13 @@
     "gulp-eslint": "^0.15.0",
     "gulp-rename": "^1.2.2",
     "gulp-template": "^3.0.0",
+    "jasmine": "^2.3.1",
+    "jasmine-core": "^2.3.4",
     "jsx-loader": "^0.13.2",
+    "mocha": "^2.2.5",
     "node-libs-browser": "^0.5.2",
     "node-sass": "^3.2.0",
-    "path": "^0.11.14",
+    "phantomjs": "^1.9.17",
     "sass-flex-mixin": "^1.0.0",
     "sass-loader": "^1.0.2",
     "style-loader": "^0.12.3",

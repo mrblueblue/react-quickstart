@@ -1,11 +1,12 @@
 import './styles/styles.scss';
 import React from 'react';
+import HelloWorld from './components/HelloWorld';
 
-class App extends React.Component {
+export class App extends React.Component {
   render(){
     return (
       <div>
-        <p>Hello World</p>
+        <HelloWorld/>
       </div>
     );
   }
