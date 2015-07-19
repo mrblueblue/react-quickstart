@@ -3,7 +3,15 @@
 
 A minimalist React starter. 
 
-Includes [ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/), [Babel](http://babeljs.io/), [Sass](http://sass-lang.com/), [Gulp](http://gulpjs.com/), [Webpack](http://webpack.github.io/), [Mocha](http://mochajs.org/)/[Chai](http://chaijs.com/) and [BrowserSync](http://www.browsersync.io/). 
+## Features
+
+&nbsp; &nbsp; ✓ Language - [ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/)<br>
+&nbsp; &nbsp; ✓ Transpiler - [Babel](http://babeljs.io/)<br>
+&nbsp; &nbsp; ✓ Styling - [Sass](http://sass-lang.com/)<br>
+&nbsp; &nbsp; ✓ Task Runner - [Gulp](http://gulpjs.com/)<br>
+&nbsp; &nbsp; ✓ Bundling - [Webpack](http://webpack.github.io/)<br>
+&nbsp; &nbsp; ✓ Testing - [Mocha](http://mochajs.org/)/[Chai](http://chaijs.com/)<br>
+&nbsp; &nbsp; ✓ Development - [BrowserSync](http://www.browsersync.io/)<br>
 
 ## Getting Started
 
