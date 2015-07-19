@@ -38,12 +38,12 @@ Components generated this way will automatically be created in `/src/app/compone
 
 Add the `--full` flag to create a React component with life-cycle methods.
 
-## Docs
+## Documentation
 
-* [React and ES6](./docs/REACT-ES6.md)
-* [Webpack Config](./docs/WEBPACK.md)
-* [Component Generator](./docs/GENERATOR.md)
-* [FAQ](./docs/FAQ.md)
+[React and ES6](./docs/REACT-ES6.md)<br>
+[Webpack Config](./docs/WEBPACK.md)<br>
+[Component Generator](./docs/GENERATOR.md)<br>
+[FAQ](./docs/FAQ.md)<br>
 
 ## License
 
