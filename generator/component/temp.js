@@ -1,4 +1,4 @@
-export class <%= upCaseName %> extends.React.Component {
+export class <%= upCaseName %> extends React.Component {
 
   static propTypes = {
     // initialCount: React.PropTypes.number.isRequired
