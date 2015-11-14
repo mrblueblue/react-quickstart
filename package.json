@@ -13,7 +13,7 @@
     "build": "npm run clean && npm run build:webpack",
     "start": "node devServer.js",
     "lint": "eslint src",
-    "test": "mocha --reporter nyan --compilers js:babel/register --recursive"
+    "test": "mocha --reporter nyan --compilers js:babel-core/register --recursive"
   },
   "keywords": [
     "react",
@@ -39,6 +39,7 @@
     "gulp-template": "^3.1.0",
     "mocha": "^2.3.3",
     "node-sass": "^3.4.2",
+    "react-addons-test-utils": "^0.14.2",
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.0",
     "redbox-react": "^1.0.1",
