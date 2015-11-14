@@ -1,12 +1,10 @@
-export class <%= upCaseName %> extends React.Component {
+import React from 'react';
 
-  static propTypes = {
-    // initialCount: React.PropTypes.number.isRequired
-  }
+const <%= upCaseName %> = (props) => (
+  <div>
+    <p> I am the <%= upCaseName %> Component</p>
+  <div>
+);
 
-  render(){
-    <div>
-      <p> I am the <%= upCaseName %> Component</p>
-    <div>
-  }
-};
+export default <%= upCaseName %>
+    

@@ -1,12 +1,13 @@
-export class <%= upCaseName %> extends.React.Component {
+import React, {Component, PropTypes} from 'react';
+
+export default class <%= upCaseName %> extends Component {
 
   static propTypes = {
-    // initialCount: React.PropTypes.number.isRequired
+    // initialCount: PropTypes.number.isRequired
   }
 
-  constructor(){
-    super();
-    this.state = {};
+  state = {
+
   }
 
   componentWillMount(){

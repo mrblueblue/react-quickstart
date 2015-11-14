@@ -33,6 +33,10 @@
     "eslint-plugin-react": "^2.3.0",
     "express": "^4.13.3",
     "extract-text-webpack-plugin": "^0.9.1",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-template": "^3.1.0",
+    "node-sass": "^3.4.2",
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.0",
     "redbox-react": "^1.0.1",
@@ -41,7 +45,8 @@
     "style-loader": "^0.13.0",
     "webpack": "^1.9.6",
     "webpack-dev-middleware": "^1.2.0",
-    "webpack-hot-middleware": "^2.0.0"
+    "webpack-hot-middleware": "^2.0.0",
+    "yargs": "^3.30.0"
   },
   "dependencies": {
     "react": "^0.14.2",
