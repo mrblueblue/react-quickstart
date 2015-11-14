@@ -43,6 +43,9 @@ var config = {
 
   resolve: {
     extensions: ['', '.js', '.jsx'],
+    alias: {
+      components: path.resolve(__dirname, 'src/app/components')
+    }
   },
 
   plugins: [

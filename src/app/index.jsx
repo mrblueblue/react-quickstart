@@ -1,15 +1,12 @@
-import './styles/styles.scss';
+// import './styles/styles.scss';
 
 import React from 'react';
-import HelloWorld from './components/HelloWorld';
+import ReactDOM from 'react-dom';
+import HelloWorld from 'components/HelloWorld';
 
-export class App extends React.Component {
-  render(){
-    return <HelloWorld/>;
-  }
-}
+const App = () => <HelloWorld/>
 
-React.render(
+ReactDOM.render(
   <App />,
   document.getElementById('app')
 );
