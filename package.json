@@ -1,6 +1,6 @@
 {
   "name": "react-quickstart",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "a quick and minimal react starter kit",
   "main": "src/app.js",
   "repository": {
@@ -19,7 +19,9 @@
     "react",
     "es6",
     "webpack",
-    "starter"
+    "starter kit",
+    "minimal",
+    "reacet-component"
   ],
   "author": "Jonathan Huang <jon@levity.io>",
   "license": "MIT",
